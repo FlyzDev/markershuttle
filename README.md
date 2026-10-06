@@ -1,20 +1,20 @@
-# Marker Importer
+# MarkerShuttle
 
-Public support and feedback tracker for **Marker Importer**, a Premiere Pro UXP panel for moving recording markers into an edit timeline.
+Public support and feedback tracker for **MarkerShuttle**, a Premiere Pro UXP panel for moving recording markers into an edit timeline.
 
 > This repository is for support, bug reports, feature requests, and public release information. The application source code is maintained privately and is not published in this repository.
 
 ## Current release
 
-- Marker Importer **1.0.0**
+- MarkerShuttle **1.0.0**
 - Adobe Premiere Pro **25.6 or newer**
 - Windows and macOS
 
-## What Marker Importer does
+## What MarkerShuttle does
 
-Marker Importer is built around recording-to-edit workflows, including OBS/XMEML markers. It can:
+MarkerShuttle is built around recording-to-edit workflows, including OBS/XMEML markers. It can:
 
-- import sequence markers from XMEML/XML, Marker Importer CSV, timestamp text, SRT, CSV, and TSV sources
+- import sequence markers from XMEML/XML, MarkerShuttle CSV, timestamp text, SRT, CSV, and TSV sources
 - map ordinary delimited files before import
 - place each source relative to a configurable **Recording starts at** timeline position
 - queue multiple sources for one active sequence
@@ -26,7 +26,7 @@ Marker Importer is built around recording-to-edit workflows, including OBS/XMEML
 - reposition or conservatively remove recent imports without guessing at edited markers
 - copy non-sensitive diagnostics for support
 
-Marker Importer runs locally. It does not require an account and does not include analytics or network access.
+MarkerShuttle runs locally. It does not require an account and does not include analytics or network access.
 
 ## Support and feedback
 
@@ -40,19 +40,19 @@ Before opening a bug report, please check whether the issue already exists and i
 
 For the most useful report, include:
 
-- Marker Importer version
+- MarkerShuttle version
 - Premiere Pro version
 - Windows or macOS version
-- source type used (`XML`, Marker CSV, timestamp text, `SRT`, `CSV`, or `TSV`)
+- source type used (`XML`, MarkerShuttle CSV, timestamp text, `SRT`, `CSV`, or `TSV`)
 - exact steps to reproduce
 - what you expected and what actually happened
 - a screenshot or short screen recording when useful
-- **Copy Diagnostics** output from Marker Importer when available
+- **Copy Diagnostics** output from MarkerShuttle when available
 
 Diagnostics are designed not to include source filenames, target sequence names, marker/rule text, raw error messages, or local filesystem paths, but you should still review anything you paste into a public issue.
 
 ## Source code
 
-Marker Importer is currently distributed as closed-source software. This public repository intentionally contains support material only; it is not a source mirror.
+MarkerShuttle is currently distributed as closed-source software. This public repository intentionally contains support material only; it is not a source mirror.
 
 Please do not open pull requests expecting application source files to be present here. Product feedback and reproducible bug reports are welcome through Issues.
