@@ -32,9 +32,9 @@ MarkerShuttle runs locally. It does not require an account and does not include 
 
 Use GitHub Issues for public support:
 
-- **Found a bug?** [Report a bug](https://github.com/FlyzDev/marker-importer/issues/new?template=bug_report.yml)
-- **Have an idea?** [Request a feature](https://github.com/FlyzDev/marker-importer/issues/new?template=feature_request.yml)
-- **Browse existing reports:** [Issues](https://github.com/FlyzDev/marker-importer/issues)
+- **Found a bug?** [Report a bug](https://github.com/FlyzDev/markershuttle/issues/new?template=bug_report.yml)
+- **Have an idea?** [Request a feature](https://github.com/FlyzDev/markershuttle/issues/new?template=feature_request.yml)
+- **Browse existing reports:** [Issues](https://github.com/FlyzDev/markershuttle/issues)
 
 Before opening a bug report, please check whether the issue already exists and include enough information to reproduce it.
 
