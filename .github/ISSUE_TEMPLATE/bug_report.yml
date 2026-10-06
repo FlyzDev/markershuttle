@@ -1,5 +1,5 @@
 name: Bug report
-description: Report a reproducible problem with Marker Importer
+description: Report a reproducible problem with MarkerShuttle
 title: "[Bug]: "
 labels:
   - bug
@@ -16,13 +16,13 @@ body:
       options:
         - label: I searched existing issues and did not find the same problem.
           required: true
-        - label: I am using an official Marker Importer release.
+        - label: I am using an official MarkerShuttle release.
           required: true
 
   - type: input
-    id: marker_importer_version
+    id: marker_shuttle_version
     attributes:
-      label: Marker Importer version
+      label: MarkerShuttle version
       description: For example, 1.0.0
       placeholder: 1.0.0
     validations:
@@ -83,7 +83,7 @@ body:
     id: expected
     attributes:
       label: Expected behavior
-      description: What did you expect Marker Importer to do?
+      description: What did you expect MarkerShuttle to do?
     validations:
       required: true
 
@@ -99,7 +99,7 @@ body:
     id: diagnostics
     attributes:
       label: Copy Diagnostics output
-      description: Use Marker Importer's Copy Diagnostics command when available. Review the text before posting it publicly.
+      description: Use MarkerShuttle's Copy Diagnostics command when available. Review the text before posting it publicly.
       render: text
 
   - type: textarea
