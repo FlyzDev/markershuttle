@@ -1,5 +1,5 @@
 name: Feature request
-description: Suggest an improvement or new workflow for Marker Importer
+description: Suggest an improvement or new workflow for MarkerShuttle
 title: "[Feature]: "
 labels:
   - enhancement
@@ -30,7 +30,7 @@ body:
     id: proposed_solution
     attributes:
       label: Proposed solution
-      description: What would you like Marker Importer to do?
+      description: What would you like MarkerShuttle to do?
     validations:
       required: true
 
